@@ -22,7 +22,7 @@
             <% include Footer %>
         </footer>
         <% require javascript('https://code.jquery.com/jquery-3.4.1.min.js') %>
-        <% require themedJavascript('dist/js/main.js') %>
+        <%--<% require themedJavascript('dist/js/main.js') %>--%>
         <% include GoogleAnalytics %>
     </body>
 </html>

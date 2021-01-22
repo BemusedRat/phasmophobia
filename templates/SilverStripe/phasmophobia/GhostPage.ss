@@ -8,8 +8,8 @@
         <% if $RSSLink %>
         <link rel='alternate' type='application/rss+xml' title='RSS' href='$RSSLink'>
         <% end_if %>
-        <%--<% require themedCss('dist/css/main.css') %>--%>
-        <% include Favicon %>
+        <%--<% require themedCss('dist/css/main.css') %>
+        <% include Favicon %>--%>
     </head>
     <body class="$ClassName bg-dark">
         <header role="banner" class="bg-dark text-light mb-3">

@@ -1,0 +1,57 @@
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+input[type=submit]:hover {
+    width: 50%;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.form-check-input + label {
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.form-check-input:checked + label {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.form-check-input:checked + label:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+.ghost {
+    margin-bottom: 1rem;
+}
+
+.ghost .card {
+    background-color: #e2e6ea;
+}
+
+.fields .checkboxset {
+    margin: 0;
+}
+
+.alert-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.form-group .col-form-label.d-block {
+    display: none !important;
+}

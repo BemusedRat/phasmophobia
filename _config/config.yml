@@ -1,0 +1,10 @@
+---
+Name: bemusedrat/phasmophobia
+---
+SilverStripe\bemusedrat\phasmophobia\Ghost:
+  extensions:
+    - 'TractorCow\Fluent\Extension\FluentExtension'
+
+SilverStripe\bemusedrat\phasmophobia\Evidence:
+  extensions:
+    - 'TractorCow\Fluent\Extension\FluentExtension'

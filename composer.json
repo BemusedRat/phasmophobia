@@ -26,7 +26,8 @@
             "dev-master": "2.x-dev"
         },
         "expose": [
-            "client/dist"
+            "client/dist",
+            "css"
         ]
     },
     "minimum-stability": "dev",

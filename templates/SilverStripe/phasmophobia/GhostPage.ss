@@ -8,8 +8,8 @@
         <% if $RSSLink %>
         <link rel='alternate' type='application/rss+xml' title='RSS' href='$RSSLink'>
         <% end_if %>
-        <%--<% require themedCss('dist/css/main.css') %>
-        <% include Favicon %>--%>
+		<% include Icons %>
+		<% include Requirements %>
     </head>
     <body class="$ClassName bg-dark">
         <header role="banner" class="bg-dark text-light mb-3">
@@ -22,7 +22,7 @@
             <% include Footer %>
         </footer>
         <% require javascript('https://code.jquery.com/jquery-3.4.1.min.js') %>
-        <%--<% require themedJavascript('dist/js/main.js') %>--%>
-        <% include GoogleAnalytics %>
+        <%--<% require themedJavascript('dist/js/main.js') %>
+        <% include GoogleAnalytics %>--%>
     </body>
 </html>

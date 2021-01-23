@@ -6,7 +6,7 @@ Install SilverStripe 4.6
 composer create-project silverstripe/installer ./my-project 4.6.0
 
 Install bootstrap theme 1.0
-composer require ilateral/silverstripe-bootstrap-4 1.0.0
+composer require ilateral/silverstripe-bootstrap-4 1.1.2
 
 Install fractas/cookiepolicy
 composer require fractas/cookiepolicy dev-master

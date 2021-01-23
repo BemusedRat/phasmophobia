@@ -46,12 +46,22 @@ form {
     margin: 0;
 }
 
-.alert-error {
+.message.error {
     color: #721c24;
+    border: 1px solid transparent;
     background-color: #f8d7da;
     border-color: #f5c6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
 }
 
-.form-group .col-form-label.d-block {
+.field.form-group.optionset.checkboxset label.left {
     display: none !important;
+}
+
+html .btn,
+html .card {
+    border-radius: .25rem;
 }

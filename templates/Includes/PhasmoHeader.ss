@@ -1,5 +1,5 @@
 <div class="container site-header clearfix">
-    <% include SkipLinks %>
+    <%--<% include SkipLinks %>--%>
     <div class="site-header-brand">
         <a title="<%t CWP_Header.Title "Go to Home Page" %>" class="site-header-brand-link-default" href="$BaseHref">
         <h1>$SiteConfig.Title</h1>
@@ -15,6 +15,6 @@
         </button>
     </div>
 
-    <% include HeaderSearch %>
-    <% include LanguageSelector %>
+    <%--<% include HeaderSearch %>
+    <% include LanguageSelector %>--%>
 </div>

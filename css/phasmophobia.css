@@ -1,3 +1,12 @@
+html {
+    background-color: #343a40;
+    height: 100%;
+}
+
+html header {
+    border-top: none;
+}
+
 input[type=checkbox] {
     display: none;
 }
@@ -64,4 +73,8 @@ form {
 html .btn,
 html .card {
     border-radius: .25rem;
+}
+
+header nav {
+    display: hidden;
 }

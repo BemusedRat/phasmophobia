@@ -13,13 +13,13 @@
     </head>
     <body class="$ClassName bg-dark">
         <header role="banner" class="bg-dark text-light mb-3">
-            <% include Header %>
+            <% include PhasmoHeader %>
         </header>
         <main id="main" class="main bg-white pt-4 pb-4" role="main">
             $Layout
         </main>
         <footer class="footer bg-dark text-light pt-3 pb-3" role="contentinfo">
-            <% include Footer %>
+            <% include PhasmoFooter %>
         </footer>
         <% require javascript('https://code.jquery.com/jquery-3.4.1.min.js') %>
         <%--<% require themedJavascript('dist/js/main.js') %>

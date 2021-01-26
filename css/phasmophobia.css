@@ -1,6 +1,5 @@
-html {
-    background-color: #343a40;
-    height: 100%;
+html, body.bg-dark {
+    background-color: #343a40 !important;
 }
 
 html header {

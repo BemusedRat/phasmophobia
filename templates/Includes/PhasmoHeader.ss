@@ -15,6 +15,8 @@
         </button>
     </div>
 
+    <% include PhasmoLocaleMenu %>
+
     <%--<% include HeaderSearch %>
     <% include LanguageSelector %>--%>
 </div>

@@ -1,6 +1,6 @@
 <?php
 
-    namespace SilverStripe\phasmophobia;
+    namespace bemusedrat\phasmophobia;
 
     use SilverStripe\ORM\DataObject;
     use SilverStripe\Forms\FieldList;
@@ -20,7 +20,7 @@
             'Ghosts' => Ghost::class
         ];
 
-        private static $default_sort = 'Name ASC';
+        //private static $default_sort = 'Name ASC';
 
         private static $table_name = 'Evidence';
 

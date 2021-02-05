@@ -1,6 +1,6 @@
 <?php
 
-    namespace SilverStripe\phasmophobia;
+    namespace bemusedrat\phasmophobia;
 
     use SilverStripe\Control\Controller;
     use SilverStripe\ORM\DataObject;
@@ -23,7 +23,7 @@
             'EvidenceTypes' => Evidence::class
         ];
 
-        private static $default_sort = 'Name ASC';
+        //private static $default_sort = 'Name ASC';
 
         private static $table_name = 'Ghost';
 

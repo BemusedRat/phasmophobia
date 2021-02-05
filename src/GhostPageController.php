@@ -1,6 +1,6 @@
 <?php
 
-    namespace SilverStripe\phasmophobia;
+    namespace bemusedrat\phasmophobia;
 
     use PageController;
     use SilverStripe\Control\Director;

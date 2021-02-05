@@ -1,0 +1,8 @@
+---
+Name: phasmofluentconfig
+---
+TractorCow\Fluent\Extension\FluentDirectorExtension:
+  detect_locale: true
+
+TractorCow\Fluent\Extension\FluentDirectorExtension:
+  disable_default_prefix: true

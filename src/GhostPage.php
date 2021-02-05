@@ -1,6 +1,6 @@
 <?php
 
-    namespace SilverStripe\phasmophobia;
+    namespace bemusedrat\phasmophobia;
 
     use Page;
     use SilverStripe\Forms\GridField\GridField;

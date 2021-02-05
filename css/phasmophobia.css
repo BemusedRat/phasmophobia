@@ -77,3 +77,7 @@ html .card {
 header nav {
     display: hidden;
 }
+
+.LanguageFlag {
+    background-image: url("../assets/flags/24x24/ko_KR.png");
+}

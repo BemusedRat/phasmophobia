@@ -12,13 +12,13 @@
 		<% include Requirements %>
     </head>
     <body class="$ClassName bg-dark">
-        <header role="banner" class="bg-dark text-light mb-3">
+        <header role="banner" class="bg-phasmo">
             <% include PhasmoHeader %>
         </header>
-        <main id="main" class="main bg-white pt-4 pb-4" role="main">
+        <main id="main" class="main bg-phasmo pt-4 pb-4" role="main">
             $Layout
         </main>
-        <footer class="footer bg-dark text-light pt-3 pb-3" role="contentinfo">
+        <footer class="footer bg-phasmo pt-3 pb-3" role="contentinfo">
             <% include PhasmoFooter %>
         </footer>
         <% require javascript('https://code.jquery.com/jquery-3.4.1.min.js') %>

@@ -1,7 +1,9 @@
 <div class="container">
     <div>
         <section class="<% if not $Children %><% end_if %>">
-			$Content
+			<div class="content">
+				$Content
+			</div>
 			<div>
 				$EvidenceForm
 			</div>

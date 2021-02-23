@@ -2,7 +2,7 @@
     <% if EvidencedGhosts %>
         <% loop EvidencedGhosts %>
             <div class="ghost col-sm-4">
-            <div class="card<% if $Top.OnlyGhost %> bg-success text-white<% end_if %>">
+                <div class="card<% if $Top.OnlyGhost %> onlyghost text-white<% end_if %>">
                     <div class="card-body">
                         <h5 class="card-title">$Name</h5>
 
@@ -30,7 +30,7 @@
             </div>
         <% end_loop %>
     <% else %>
-        <div class="alert alert-warning col-sm-6">
+        <div class="alert alert-warning col-sm-12">
             No ghosts match that evidence combination. Please try again.
         </div>
     <% end_if %>

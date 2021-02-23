@@ -1,9 +1,40 @@
-html, body.bg-dark {
-    background-color: #343a40 !important;
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+html * {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
 }
 
-html header {
+html .btn {
+    font-size: 2rem;
+}
+
+html h1 {
+    font-size: 4rem;
+}
+
+html h5 {
+    font-size: 2rem;
+}
+
+html, body.bg-phasmo {
+    background-color: #e2e6ea !important;
+}
+
+html header,
+html footer {
     border-top: none;
+    color: #212529;
+    margin-bottom: -1.5rem;
+}
+
+header .navbar-expand-md {
+    display: none;
+}
+
+.bg-phasmo,
+html .main {
+    background-color: #e2e6ea;
 }
 
 input[type=checkbox] {
@@ -11,31 +42,47 @@ input[type=checkbox] {
 }
 
 input[type=submit] {
-    width: 50%;
-    background-color: #007bff;
-    border-color: #007bff;
+    width: 100%;
+    background-color: #606577;
+    border-color: #697082;
 }
 
 input[type=submit]:hover {
-    width: 50%;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    width: 100%;
+    background-color: #949cb0;
+    border-color: #949cb0;*/
+}
+
+html .form-check {
+    padding-left: 0.5rem;
+}
+
+html .form-check-inline {
+    margin-right: 0;
 }
 
 .form-check-input + label {
     cursor: pointer;
     width: 100%;
     margin-bottom: 1rem;
+    background-color: none;
+    border-color: #697082;
 }
 
 .form-check-input:checked + label {
-    background-color: #28a745;
-    border-color: #28a745;
+    background-color: #606577;
+    border-color: #697082;
+    color: #fff;
+}
+
+.form-check-input:hover + label {
+    background-color: none;
+    border-color: #949cb0;
 }
 
 .form-check-input:checked + label:hover {
-    background-color: #218838;
-    border-color: #1e7e34;
+    background-color: none;
+    border-color: #949cb0;
 }
 
 form {
@@ -48,6 +95,13 @@ form {
 
 .ghost .card {
     background-color: #e2e6ea;
+    border-color: #697082;
+}
+
+.ghost .onlyghost {
+    background-color: #606577;
+    border-color: #697082;
+    color: #fff;
 }
 
 .fields .checkboxset {
@@ -71,13 +125,21 @@ form {
 
 html .btn,
 html .card {
-    border-radius: .25rem;
+    border-radius: none;
+    border-width: 3px;
 }
 
 header nav {
     display: hidden;
 }
 
-.LanguageFlag {
+/*.LanguageFlag {
     background-image: url("../assets/flags/24x24/ko_KR.png");
+}*/
+
+header div,
+footer div,
+.alert,
+.content {
+    text-align: center;
 }
